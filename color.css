@@ -1,0 +1,108 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+bodY{
+   
+   background-image: linear-gradient(to left bottom, #b7d0ce, #98cedb, #85c7ef, #94bafe, #c0a5fb, #e49de2, #f99bc7, #ff9ead, #ffb9ab, #fcd4b9, #f9ebd5, #fffff8);
+}
+
+.container{
+   width: 400px;
+   padding: 1rem;
+   margin: 8vh auto; 
+   background-color: white;
+   border-radius: 2rem;
+   box-shadow: 2px 2px 1rem silver;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   align-items: center;
+   cursor: pointer;
+   
+   
+   
+
+
+}
+
+.display{
+   width: 90%;
+   height: 6rem;
+   border-radius: 1rem;
+  background-color: black;
+   box-shadow: 2px 2px 1rem silver;  
+   
+   
+}
+.display-value{
+    width: 90%;
+    box-shadow: 2px 2px 1rem silver; 
+    padding: 0.5rem;
+    border-radius: 0.51rem;
+    
+
+}
+table tr td{
+   margin: 0.9rem;
+   padding: 0.3rem;
+}
+.color-span{
+   background-color: #b3b3b33f;
+   border-radius: 1rem;
+}
+.color-span:hover{
+   border:0.1rem solid #85c7ef;
+}
+.parameters{
+   
+   
+   padding: 1rem;
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   border-radius: 0.8rem;
+   background-color: white;
+   box-shadow: 2px 2px 1rem silver;
+   
+   
+}
+i{
+   font-weight: 300;
+   font-size: 0.8rem;
+   background-color: #b3b3b33f;
+   padding:0.3rem;
+   margin: 0.2rem;
+   border-radius: 0.4rem;
+   
+   
+}
+h3>i:hover{
+   
+   color: #85c7ef;
+}
+input{
+   width: 12rem;
+   border: 0 solid;
+   outline: none;
+   cursor: pointer;
+}
+.item{
+   display: flex;
+   
+
+}
+
+span{
+   margin:1rem;
+   padding: 0.2rem;
+   
+}
+
+@media screen and (max-width:500px){
+   .container{
+      width: 90vw;
+   }
+  
+}

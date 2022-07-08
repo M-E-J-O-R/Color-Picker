@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta property="og:title" content="Color Picker: Pick your favourite color">
+   <meta property="og:description" content="Pick your favourite color in RGBA and get the HEX value">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <script defer src="color.js"></script>
+   <meta name="description" content="Pick your favourite color in RGBA and get the HEX value">
+   <link rel="stylesheet" href="color.css">
+   <title>Color Picker: Pick your favourite color</title>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="/JAVASCRIPT/jquery-3.6.0.js"></script>
+
+</head>
+<body>
+   
+
+   </div>
+   <div  class="container">
+      <div class="display">
+
+      </div>
+      <div class="table display-value">
+         <table>
+            <tr>
+               <td > RGBA: </td>
+               <td class ="color-span"id="rgba-span">rgba(0,0,0, 1)</td>
+            </tr>
+            <tr>
+               <td>HEX:</td>
+               <td class="color-span"id="hex-span"> #000000ff</td>
+            </tr>
+         </table>
+      </div>
+   
+
+      <div  class="parameters">
+         
+         <div class="parameter">
+            <h3>R<i id="red">0</i></h3>
+            <div class="item">
+               <span>0</span>
+            <input type="range" value="0"  min='0' max="255"/><span>255</span>
+            </div>
+
+
+         <div class="parameter">
+            <h3>G <i id="green">0</i></h3>
+            <div class="item">
+               
+            <span>0</span>
+            <input type="range" value="0"  min='0' max="255"/><span>255</span>
+            </div>
+
+            
+            
+         </div>
+         <div class="parameter">
+            <h3>B <i id="blue">0</i></h3>
+            <div class="item">
+               <span>0</span>
+            <input type="range" value=0 min='0' max="255"/><span>255</span>
+            </div>
+            
+         </div>
+
+
+         <div class="parameter">
+             <h3>A <i id="opacity">1</i></h3>
+            <div class="item">
+               <span>0</span>
+            <input type="range" value="10" min='0' max="10"/><span>1</span>
+
+            </div>
+            
+            
+         </div>
+         
+         
+      </div>
+      
+
+
+   </div >
+   
+</body>
+</html>
