@@ -20,13 +20,11 @@ body{
    gap: 1rem;
    align-items: center;
    cursor: pointer;
-   
-   
-   
-
 
 }
-
+.container::selection {
+  background: none;
+}
 .display{
    width: 90%;
    height: 6rem;
