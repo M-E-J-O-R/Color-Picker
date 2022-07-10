@@ -20,11 +20,10 @@ body{
    gap: 1rem;
    align-items: center;
    cursor: pointer;
+   -webkit-tap-highlight-color: transparent !important;
 
 }
-.container::selection {
-  background: none;
-}
+
 .display{
    width: 90%;
    height: 6rem;
